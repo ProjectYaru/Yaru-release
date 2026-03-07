@@ -5,17 +5,17 @@
   "min_supported_version": "0.0.0",
   "platforms": {
     "windows": {
-      "installer_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.5-alpha/Yaru-WINDOWS-0.0.5-alpha.exe",
+      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.5-alpha/Yaru-WINDOWS-0.0.5-alpha.exe",
       "installer_sha256": "ca51db556920c5c85d198465d9917882154b21587de5d34af4b910960517f439",
       "installer_size": 50053400
     },
     "android": {
-      "installer_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.5-alpha/Yaru-ANDROID-0.0.5-alpha.apk",
+      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.5-alpha/Yaru-ANDROID-0.0.5-alpha.apk",
       "installer_sha256": "eb62a8638657989453ac170741fc885ff853326f7086fb19a8a75053f40d300f",
       "installer_size": 89883795
     },
     "linux": {
-      "portable_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.5-alpha/Yaru-LINUX-0.0.5-alpha.tar",
+      "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.5-alpha/Yaru-LINUX-0.0.5-alpha.tar",
       "portable_sha256": "9c5586d2c27d7b520f9a836721c9103dd2546f294699529543e48016641e018f",
       "portable_size": 135150592
     }
@@ -66,5 +66,5 @@
       }
     ]
   },
-  "release_notes_url": "https://github.com/asakatea/Yaru-release/releases/tag/0.0.5-alpha"
+  "release_notes_url": "https://github.com/ProjectYaru/Yaru-release/releases/tag/0.0.5-alpha"
 }
