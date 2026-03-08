@@ -1,70 +1,30 @@
 {
-  "version": "0.0.5-alpha",
-  "build_number": 5,
-  "release_date": "2026-03-03T05:21:42Z",
+  "version": "0.0.6-alpha",
+  "build_number": 6,
+  "release_date": "2026-03-07T17:58:32.051165+00:00",
   "min_supported_version": "0.0.0",
   "platforms": {
     "windows": {
-      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.5-alpha/Yaru-WINDOWS-0.0.5-alpha.exe",
-      "installer_sha256": "ca51db556920c5c85d198465d9917882154b21587de5d34af4b910960517f439",
-      "installer_size": 50053400
+      "portable_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.6-alpha/yaru-portable.zip",
+      "portable_sha256": "c82128e5c4d0959ccb0d79a64744bbc22f9a80d16c08fb9b98c68a0aa0e1e752",
+      "portable_size": 131358187,
+      "installer_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.6-alpha/asaka.msix",
+      "installer_sha256": "ea59fc7406018f0030a90f676b880719a0e6e17a9769c92d9d13d47160226c02",
+      "installer_size": 67351621
     },
     "android": {
-      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.5-alpha/Yaru-ANDROID-0.0.5-alpha.apk",
-      "installer_sha256": "eb62a8638657989453ac170741fc885ff853326f7086fb19a8a75053f40d300f",
-      "installer_size": 89883795
+      "installer_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.6-alpha/app-arm64-v8a-release.apk",
+      "installer_sha256": "e261814ed995c8762efa81412ec43847995867578e0681c4a590c03f5e86a872",
+      "installer_size": 89706937
     },
     "linux": {
-      "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.5-alpha/Yaru-LINUX-0.0.5-alpha.tar",
-      "portable_sha256": "9c5586d2c27d7b520f9a836721c9103dd2546f294699529543e48016641e018f",
-      "portable_size": 135150592
+      "portable_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.6-alpha/yaru-0.0.6-alpha-linux-x64.tar.gz",
+      "portable_sha256": "3f5d45e142b9ba2aab4b1b904815f28f60196774559232a05d846c1a9ab050ce",
+      "portable_size": 75726799
     }
   },
   "changelog": {
-    "zh": [
-      {
-        "type": "fix",
-        "text": "修复了题库->题目详情每个数学公式错误换行的问题。"
-      },
-      {
-        "type": "improvement",
-        "text": "增强了 AI 聊天功能。"
-      },
-      {
-        "type": "feature",
-        "text": "新增书库阅读器配套功能。"
-      },
-      {
-        "type": "fix",
-        "text": "修复了在记忆模块->市场下载卡片后不会自动添加到牌组库的问题。"
-      },
-      {
-        "type": "improvement",
-        "text": "删除了注册界面的验证码。"
-      }
-    ],
-    "en": [
-      {
-        "type": "fix",
-        "text": "修复了题库->题目详情每个数学公式错误换行的问题。"
-      },
-      {
-        "type": "improvement",
-        "text": "增强了 AI 聊天功能。"
-      },
-      {
-        "type": "feature",
-        "text": "新增书库阅读器配套功能。"
-      },
-      {
-        "type": "fix",
-        "text": "修复了在记忆模块->市场下载卡片后不会自动添加到牌组库的问题。"
-      },
-      {
-        "type": "improvement",
-        "text": "删除了注册界面的验证码。"
-      }
-    ]
+    "en": []
   },
-  "release_notes_url": "https://github.com/ProjectYaru/Yaru-release/releases/tag/0.0.5-alpha"
+  "release_notes_url": "https://github.com/asakatea/Yaru-release/releases/tag/0.0.6-alpha"
 }
