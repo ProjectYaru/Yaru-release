@@ -8,9 +8,9 @@
       "portable_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.6-alpha/yaru-portable.zip",
       "portable_sha256": "c82128e5c4d0959ccb0d79a64744bbc22f9a80d16c08fb9b98c68a0aa0e1e752",
       "portable_size": 131358187,
-      "installer_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.6-alpha/asaka.msix",
-      "installer_sha256": "ea59fc7406018f0030a90f676b880719a0e6e17a9769c92d9d13d47160226c02",
-      "installer_size": 67351621
+      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.6-alpha/Yaru-Windows-0.0.6-alpha-Setup.exe",
+      "installer_sha256": "c68b8fc36007e3954f87a9c4059c60031cde7dd4c4afc1698c2122bcc9aa777d",
+      "installer_size": 115966410
     },
     "android": {
       "installer_url": "https://github.com/asakatea/Yaru-release/releases/download/0.0.6-alpha/app-arm64-v8a-release.apk",
@@ -24,7 +24,50 @@
     }
   },
   "changelog": {
-    "en": []
+    "zh": [
+      {
+        "type": "feature",
+        "text": "新增 Windows 安装版 EXE，使用 Inno Setup 打包。"
+      },
+      {
+        "type": "improvement",
+        "text": "Windows 正式版启用 release、obfuscate、split-debug-info 与 tree-shake-icons 优化。"
+      },
+      {
+        "type": "improvement",
+        "text": "Android 发布 armv7、arm64、x86_64 三个 ABI 的正式构建包。"
+      },
+      {
+        "type": "feature",
+        "text": "Web 端改为 WASM 构建，并推送到 Yaru-VerWeb 实现 push 即 deploy。"
+      },
+      {
+        "type": "improvement",
+        "text": "Linux 使用 Arch Linux WSL2 环境完成构建并发布压缩包。"
+      }
+    ],
+    "en": [
+      {
+        "type": "feature",
+        "text": "Added a Windows EXE installer packaged with Inno Setup."
+      },
+      {
+        "type": "improvement",
+        "text": "Windows release build now uses release, obfuscation, split-debug-info, and tree-shake-icons optimizations."
+      },
+      {
+        "type": "improvement",
+        "text": "Published Android release packages for armv7, arm64, and x86_64 ABIs."
+      },
+      {
+        "type": "feature",
+        "text": "Web is now built with WASM and pushed to Yaru-VerWeb for push-to-deploy publishing."
+      },
+      {
+        "type": "improvement",
+        "text": "Linux was built in an Arch Linux WSL2 environment and published as a compressed package."
+      }
+    ]
   },
   "release_notes_url": "https://github.com/asakatea/Yaru-release/releases/tag/0.0.6-alpha"
 }
