@@ -1,116 +1,60 @@
-{
-  "version": "0.0.8-alpha",
-  "build_number": 8,
-  "release_date": "2026-03-10T12:01:56Z",
-  "min_supported_version": "0.0.0",
-  "platforms": {
-    "windows": {
-      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.8-alpha/yaru-0.0.8-alpha-windows-x64-portable.zip",
-      "installer_sha256": "729a6b7ec50cc6c72ea5132262241a38b68383002a8efacf3d46acb75cedfc0e",
-      "installer_size": 189331877,
-      "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.8-alpha/yaru-0.0.8-alpha-windows-x64-portable.zip",
-      "portable_sha256": "729a6b7ec50cc6c72ea5132262241a38b68383002a8efacf3d46acb75cedfc0e",
-      "portable_size": 189331877
-    },
-    "android": {
-      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.8-alpha/yaru-0.0.8-alpha-android-arm64-v8a.apk",
-      "installer_sha256": "f49f79e0e6d09075c6eb56ccba2483d6b3dd371e64e11dcf0df81aeae48ef0a6",
-      "installer_size": 90213309
-    },
-    "linux": {
-      "appimage_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.8-alpha/yaru-0.0.8-alpha-linux-x64.AppImage",
-      "appimage_sha256": "e5ec4faa9ec5d81129f9b58e934b0ef93963b7664598874eb7db4fbc08924c91",
-      "appimage_size": 117656056,
-      "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.8-alpha/yaru-0.0.8-alpha-linux-x64.AppImage",
-      "portable_sha256": "e5ec4faa9ec5d81129f9b58e934b0ef93963b7664598874eb7db4fbc08924c91",
-      "portable_size": 117656056
-    }
-  },
-  "changelog": {
-    "zh": [
-      {
-        "type": "feature",
-        "text": "番茄钟计时可跨页面保持与恢复。"
-      },
-      {
-        "type": "improvement",
-        "text": "移动端底部导航替换为悬浮胶囊栏，主入口更集中。"
-      },
-      {
-        "type": "improvement",
-        "text": "练习题库与个人页子页面统一使用移动端壳层 App Bar。"
-      },
-      {
-        "type": "fix",
-        "text": "学习路线图 WebView 无法加载时自动回退到原生路线图。"
-      },
-      {
-        "type": "improvement",
-        "text": "课程列表与路线图内容完成本地化并内嵌展示。"
-      },
-      {
-        "type": "fix",
-        "text": "笔记本地保存恢复流程加固，降低丢失风险。"
-      },
-      {
-        "type": "fix",
-        "text": "移动端启动同步改为缓存优先，首屏更快且更稳定。"
-      },
-      {
-        "type": "fix",
-        "text": "团队大厅去重并修正加入状态，空团队名自动兜底。"
-      },
-      {
-        "type": "improvement",
-        "text": "题目图谱主题色与节点样式规范化。"
-      },
-      {
-        "type": "fix",
-        "text": "个人主页等级展示切换为雪花等级，移除失效贡献卡片。"
-      }
-    ],
-    "en": [
-      {
-        "type": "feature",
-        "text": "Pomodoro timers now persist across screens and restore state."
-      },
-      {
-        "type": "improvement",
-        "text": "Mobile bottom navigation replaced with a floating capsule bar for faster access."
-      },
-      {
-        "type": "improvement",
-        "text": "Practice question bank and profile subpages now share the unified mobile shell app bar."
-      },
-      {
-        "type": "fix",
-        "text": "Learning roadmap falls back to the native view when the webview fails."
-      },
-      {
-        "type": "improvement",
-        "text": "Courses are localized and the roadmap is embedded directly."
-      },
-      {
-        "type": "fix",
-        "text": "Notes local-save recovery hardened to reduce data loss risk."
-      },
-      {
-        "type": "fix",
-        "text": "Mobile startup sync is cache-first for faster, more reliable boot."
-      },
-      {
-        "type": "fix",
-        "text": "Team lobby deduplicates rooms, joined state aligned, and empty team names handled."
-      },
-      {
-        "type": "improvement",
-        "text": "Problem graph theme colors and node styling normalized."
-      },
-      {
-        "type": "fix",
-        "text": "Profile level display switched to snowflake levels and the dead contribution card was removed."
-      }
-    ]
-  },
-  "release_notes_url": "https://github.com/ProjectYaru/Yaru-release/releases/tag/0.0.8-alpha"
+﻿{
+    "version":  "0.0.9-alpha",
+    "build_number":  9,
+    "release_date":  "2026-03-11T14:20:57.1990146Z",
+    "min_supported_version":  "0.0.0",
+    "platforms":  {
+                      "windows":  {
+                                      "installer_url":  "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.9-alpha/yaru-0.0.9-alpha-windows-x64-setup.exe",
+                                      "installer_sha256":  "9eb48e452963bfc220a3ae0d538f485ca4d004e5d79085a365053093dc797e7a",
+                                      "installer_size":  153450232,
+                                      "portable_url":  "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.9-alpha/yaru-0.0.9-alpha-windows-x64-portable.zip",
+                                      "portable_sha256":  "d30bb8d13ae3a70a5a76a249795cd52c99f48abc12762e0e11fe49c20d9a3a8d",
+                                      "portable_size":  64410285
+                                  },
+                      "android":  {
+                                      "installer_url":  "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.9-alpha/yaru-0.0.9-alpha-android-arm64-v8a.apk",
+                                      "installer_sha256":  "48b02642dfc768e636c4eecaa974e99ca70621f0358fd8d6056117354bf79e47",
+                                      "installer_size":  90047793
+                                  },
+                      "linux":  {
+                                    "appimage_url":  "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.9-alpha/yaru-0.0.9-alpha-linux-x64.AppImage",
+                                    "appimage_sha256":  "dad621d0c362a494e8ab300e9fea5e718771ac1b72865dafbb6f769eab71c115",
+                                    "appimage_size":  73499840,
+                                    "portable_url":  "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.9-alpha/yaru-0.0.9-alpha-linux-x64.tar.gz",
+                                    "portable_sha256":  "71eda477488d9ebb3adbb809f731c68827415c9f09f4af2210268bb19019fb72",
+                                    "portable_size":  73215266
+                                }
+                  },
+    "changelog":  {
+                      "zh":  [
+                                 {
+                                     "text":  "统一移动端子页面的 Shell App Bar 样式与返回行为，减少题库、个人页等页面切换时的割裂感。",
+                                     "type":  "fix"
+                                 },
+                                 {
+                                     "text":  "重新生成发布清单与说明文案，修复上一版发布材料中的中文乱码。",
+                                     "type":  "improvement"
+                                 },
+                                 {
+                                     "text":  "同步更新 Windows 安装包、Windows 便携版、Android 多 ABI、Linux AppImage/tar.gz 与 Web/WASM 构建。",
+                                     "type":  "improvement"
+                                 }
+                             ],
+                      "en":  [
+                                 {
+                                     "text":  "Normalized the mobile shell app bar style and back behavior across subpages such as practice and profile.",
+                                     "type":  "fix"
+                                 },
+                                 {
+                                     "text":  "Regenerated release manifests and notes in clean UTF-8 to remove the mojibake seen in the previous release materials.",
+                                     "type":  "improvement"
+                                 },
+                                 {
+                                     "text":  "Refreshed the full distribution set: Windows installer and portable ZIP, Android multi-ABI APKs, Linux AppImage/tar.gz, and the Web/WASM build.",
+                                     "type":  "improvement"
+                                 }
+                             ]
+                  },
+    "release_notes_url":  "https://github.com/ProjectYaru/Yaru-release/releases/tag/0.0.9-alpha"
 }
