@@ -1,29 +1,29 @@
 {
-  "version": "0.0.12-alpha",
-  "build_number": 12,
-  "release_date": "2026-03-15T06:50:27Z",
+  "version": "0.0.13-alpha",
+  "build_number": 13,
+  "release_date": "2026-03-15T14:22:13Z",
   "min_supported_version": "0.0.0",
   "platforms": {
     "windows": {
-      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.12-alpha/yaru-0.0.12-alpha-windows-x64-portable.zip",
-      "installer_sha256": "fd6b1c37337f8021184d6cb043674a08faeef5222c825d87527451ef414146ec",
-      "installer_size": 131855968,
+      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.13-alpha/yaru-0.0.13-alpha-windows-x64-portable.zip",
+      "installer_sha256": "569e8e2dc13c3aefc1d1d3f377843f0eb00da987211021ada9de3089755a10c3",
+      "installer_size": 131880800,
       "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.9-alpha/yaru-0.0.9-alpha-windows-x64-portable.zip",
       "portable_sha256": "d30bb8d13ae3a70a5a76a249795cd52c99f48abc12762e0e11fe49c20d9a3a8d",
       "portable_size": 64410285
     },
     "android": {
-      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.12-alpha/yaru-0.0.12-alpha-android-arm64-v8a.apk",
-      "installer_sha256": "cda871b405e421c85a6f4f92b32db2dcf1424af0de6444556c90d7239113669f",
-      "installer_size": 90320625
+      "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.13-alpha/yaru-0.0.13-alpha-android-arm64-v8a.apk",
+      "installer_sha256": "a51492f8b87303b7e1ce711f068876579792cd1b237c60b7d35d0db73df5338a",
+      "installer_size": 90386161
     },
     "linux": {
       "appimage_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.9-alpha/yaru-0.0.9-alpha-linux-x64.AppImage",
       "appimage_sha256": "dad621d0c362a494e8ab300e9fea5e718771ac1b72865dafbb6f769eab71c115",
       "appimage_size": 73499840,
-      "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.12-alpha/yaru-0.0.12-alpha-linux-x64.AppImage",
-      "portable_sha256": "752a5c175213403f1a696738e4637a95468fc5886fac48e2570ff8b7d72dffc5",
-      "portable_size": 74761408
+      "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.13-alpha/yaru-0.0.13-alpha-linux-x64.AppImage",
+      "portable_sha256": "db7854f1f142f69c2d8997f3b311961dc0a0a441d0381fe6b5de57ca211822e9",
+      "portable_size": 134300864
     }
   },
   "changelog": {
@@ -56,5 +56,5 @@
       }
     ]
   },
-  "release_notes_url": "https://github.com/ProjectYaru/Yaru-release/releases/tag/0.0.12-alpha"
+  "release_notes_url": "https://github.com/ProjectYaru/Yaru-release/releases/tag/0.0.13-alpha"
 }
