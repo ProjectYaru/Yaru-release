@@ -6,15 +6,15 @@
   "platforms": {
     "windows": {
       "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.1.1-preview/yaru-0.1.1-preview-windows-x64-portable.zip",
-      "installer_sha256": "d824a370dcb9bc5751df7f11c9fd4a39098abc9d162040e80f8f11bbc9675ce7",
-      "installer_size": 64866888,
+      "installer_sha256": "d3d762a0e0bd1716cab8ca02df5d83b0aaf20c9e1da2e697c2de8f94d0b75752",
+      "installer_size": 134132356,
       "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.0.9-alpha/yaru-0.0.9-alpha-windows-x64-portable.zip",
       "portable_sha256": "d30bb8d13ae3a70a5a76a249795cd52c99f48abc12762e0e11fe49c20d9a3a8d",
       "portable_size": 64410285
     },
     "android": {
       "installer_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.1.1-preview/yaru-0.1.1-preview-android-arm64-v8a.apk",
-      "installer_sha256": "c838ba6b3ce3b21bf92cbe1e1283437ddf924fd34ded557358aa72e796c96eea",
+      "installer_sha256": "c939440c5b5498d6923f264519c70f92ca3643805146b1399ff9f505c1b114bb",
       "installer_size": 91099148
     },
     "linux": {
@@ -22,8 +22,8 @@
       "appimage_sha256": "dad621d0c362a494e8ab300e9fea5e718771ac1b72865dafbb6f769eab71c115",
       "appimage_size": 73499840,
       "portable_url": "https://github.com/ProjectYaru/Yaru-release/releases/download/0.1.1-preview/yaru-0.1.1-preview-linux-x64.AppImage",
-      "portable_sha256": "2d16a587f7290d10e5ae9a5160c217bc88989c6854a73189511a2a22cc2b1e3a",
-      "portable_size": 75023552
+      "portable_sha256": "d68c87f19d11625c2774c8bf6a4cfecaaf5783cb44858a5ea07b24edee0c8337",
+      "portable_size": 77989056
     }
   },
   "changelog": {
